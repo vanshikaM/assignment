@@ -11,8 +11,7 @@ const Box = ()=>{
 		<mesh rotation={[90,0,20]}>
             <boxGeometry attach="geometry" args={[3.1,3.1,3.1]}/>
             <meshStandardMaterial map={colorMap}/>
-            {/* <meshLambertMaterial attach="material" color="blue"/> */}
-            {/* <meshNormalMaterial attach="material"/> */}
+           
         </mesh>
 	)
 }
